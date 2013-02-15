@@ -48,7 +48,7 @@
  an error reporter that posts uncaught exceptions to
  some external bug tracking system, it's OK to define this symbol.
  */
-//#define REDIA_APP_DONT_WARN_ON_MISSING_ERROR_REPORTER
+#define REDIA_APP_DONT_WARN_ON_MISSING_ERROR_REPORTER
 
 #define REDIA_APP_UNIFIED_LIBRARY_BACKEND_URL @""
 
@@ -69,7 +69,7 @@
 /**
  This macro enables a green button "Scan" in the search bar
  */
-//#define REDIA_APP_USE_SCANNER_OPTION
+#define REDIA_APP_USE_SCANNER_OPTION
 
 
 /**
