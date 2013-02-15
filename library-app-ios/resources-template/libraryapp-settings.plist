@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customer_id</key>
+	<string>inser_the_library_id_here</string>
+	<key>gallery_id</key>
+	<string>insert_redia_news_gallery_id_here</string>
+	<key>interface_hex_color</key>
+	<string>dd0000</string>
+	<key>no_image_image</key>
+	<string></string>
+	<key>librarys_homepage_url</key>
+	<string>www.insert-library-homepage-here.dk</string>
+</dict>
+</plist>
