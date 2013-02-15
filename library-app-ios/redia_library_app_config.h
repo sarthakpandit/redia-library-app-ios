@@ -35,6 +35,16 @@
  
  */
 
+
+/**
+ =====================================================
+ APP MODULES SETUP
+ 
+ Configurations for including or excluding
+ different modules in the app.
+ =====================================================
+ */
+
 /**
  This macro enables the use of remote error reporting
  through some bugtracking system. If enabled, the developer
@@ -49,22 +59,6 @@
  some external bug tracking system, it's OK to define this symbol.
  */
 #define REDIA_APP_DONT_WARN_ON_MISSING_ERROR_REPORTER
-
-#define REDIA_APP_UNIFIED_LIBRARY_BACKEND_URL @""
-
-#define REDIA_APP_PUBLISH_XMLRPC_URL @""
-
-#define REDIA_APP_INFOGALLERI_XMLRPC_URL @""
-
-#define REDIA_APP_COVER_SERVICE_URL @""
-
-#define REDIA_APP_IMAGE_RESCALING_SERVICE_URL @""
-
-#define REDIA_APP_PLIST_PACKAGE_FETCH_URL @""
-
-#define REDIA_APP_IMAGE_UTILS_API_KEY @""
-
-#define REDIA_APP_LIBRARY_XMLRPC_CLIENT_API_KEY @""
 
 /**
  This macro enables a green button "Scan" in the search bar
@@ -82,3 +76,62 @@
 #       define REDIA_APP_USE_MORE_ABOUT_OPTION
 #   endif
 #endif
+
+
+/**
+ =====================================================
+ BACKEND URLS AND API KEYS SETUP
+ 
+ Configurations for accessing backends
+ =====================================================
+ */
+
+/**
+ An NSString with a URL to a backend that will access the libraries
+ holdings and user data.
+ */
+#define REDIA_APP_UNIFIED_LIBRARY_BACKEND_URL @""
+
+/**
+ An NSString with a valid API key for the backend access to
+ library data.
+ */
+#define REDIA_APP_LIBRARY_XMLRPC_CLIENT_API_KEY @""
+
+/**
+ An NSString with a URL to Redia's 'Infogalleri' content management
+ system for providing content in "News" and "Arrangements"
+ tabs.
+ */
+#define REDIA_APP_INFOGALLERI_XMLRPC_URL @""
+
+/**
+ An NSString with a URL to an XMLRPC webservice providing book cover
+ images based on a backend id.
+ */
+#define REDIA_APP_COVER_SERVICE_URL @""
+
+/**
+ An NSString with a URL to an HTTP image rescaling webservice
+ */
+#define REDIA_APP_IMAGE_RESCALING_SERVICE_URL @""
+
+/**
+ An NSString with a valid API key for the image rescaling webservice
+ */
+#define REDIA_APP_IMAGE_UTILS_API_KEY @""
+
+/**
+ An NSString with a URL to Redia's 'Publish' content management
+ system for providing content in "News" and "Arrangements"
+ tabs. (Currently unused, you can leave the empty string).
+ */
+#define REDIA_APP_PUBLISH_XMLRPC_URL @""
+
+/**
+ An NSString with a URL to Redia's 'Plist Package' content management
+ system for providing content in "News" and "Arrangements"
+ tabs. (Currently unused, you can leave the empty string).
+ */
+#define REDIA_APP_PLIST_PACKAGE_FETCH_URL @""
+
