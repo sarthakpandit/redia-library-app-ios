@@ -2,9 +2,6 @@ redia-library-app-ios - An open source iOS app for public libraries in Denmark
 Copyright (c) 2012, 2013 Redia A/S
 www.redia.dk
 
-This is a support library for applications developed by
-Redia A/S, www.redia.dk
-
 Distributed under GPL, see included LICENSE.txt
 
 ## Building
