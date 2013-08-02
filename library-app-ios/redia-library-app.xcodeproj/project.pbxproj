@@ -82,7 +82,6 @@
 		20B8942B16CE3DB100B76C7D /* SearchDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B8938216CE3DB000B76C7D /* SearchDetailView.xib */; };
 		20B8942C16CE3DB100B76C7D /* SearchResultItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B8938416CE3DB000B76C7D /* SearchResultItem.m */; };
 		20B8942D16CE3DB100B76C7D /* SearchResultItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B8938516CE3DB000B76C7D /* SearchResultItem.xib */; };
-		20B8942E16CE3DB100B76C7D /* SearchResultObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B8938716CE3DB000B76C7D /* SearchResultObject.m */; };
 		20B8942F16CE3DB100B76C7D /* SearchResultsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B8938916CE3DB000B76C7D /* SearchResultsView.m */; };
 		20B8943016CE3DB100B76C7D /* SearchResultsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B8938A16CE3DB000B76C7D /* SearchResultsView.xib */; };
 		20B8943116CE3DB100B76C7D /* WebserviceVersionTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B8938C16CE3DB000B76C7D /* WebserviceVersionTester.m */; };
@@ -229,9 +228,11 @@
 		20B8961216CE3FA700B76C7D /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = 20B8960D16CE3FA700B76C7D /* zbar-help.html */; };
 		20B8961316CE3FA700B76C7D /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B8960E16CE3FA700B76C7D /* zbar-helpicons.png */; };
 		20B8961416CE3FA700B76C7D /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B8960F16CE3FA700B76C7D /* zbar-samples.png */; };
+		20F140CD17ABF02600F66A6C /* SearchResultObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F140CC17ABF02600F66A6C /* SearchResultObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		202AE53617ABEDE1007EE22C /* libraryapp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libraryapp_Prefix.pch; path = Classes/libraryapp_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		209E25A716CE438000E279B0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		209E25A916CE438C00E279B0 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		209E25AB16CE439200E279B0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -249,7 +250,7 @@
 		20B8930916CE3C9200B76C7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		20B8930B16CE3C9200B76C7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		20B8930D16CE3C9200B76C7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		20B8931116CE3C9200B76C7D /* redia-library-app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "redia-library-app-Info.plist"; path = "../redia-library-app-Info.plist"; sourceTree = "<group>"; };
+		20B8931116CE3C9200B76C7D /* redia-library-app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "redia-library-app-Info.plist"; sourceTree = SOURCE_ROOT; };
 		20B8932716CE3DB000B76C7D /* AboutDetailsItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutDetailsItemViewController.h; sourceTree = "<group>"; };
 		20B8932816CE3DB000B76C7D /* AboutDetailsItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutDetailsItemViewController.m; sourceTree = "<group>"; };
 		20B8932916CE3DB000B76C7D /* AboutDetailsItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutDetailsItemViewController.xib; sourceTree = "<group>"; };
@@ -287,7 +288,6 @@
 		20B8934B16CE3DB000B76C7D /* GenericDetailsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericDetailsListViewController.h; sourceTree = "<group>"; };
 		20B8934C16CE3DB000B76C7D /* GenericDetailsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericDetailsListViewController.m; sourceTree = "<group>"; };
 		20B8934D16CE3DB000B76C7D /* GenericDetailsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GenericDetailsListViewController.xib; sourceTree = "<group>"; };
-		20B8934E16CE3DB000B76C7D /* libraryapp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libraryapp_Prefix.pch; path = ../Classes/libraryapp_Prefix.pch; sourceTree = "<group>"; };
 		20B8934F16CE3DB000B76C7D /* libraryappAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libraryappAppDelegate.h; sourceTree = "<group>"; };
 		20B8935016CE3DB000B76C7D /* libraryappAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = libraryappAppDelegate.m; sourceTree = "<group>"; };
 		20B8935116CE3DB000B76C7D /* LibraryAppSetttings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryAppSetttings.h; sourceTree = "<group>"; };
@@ -305,7 +305,7 @@
 		20B8935D16CE3DB000B76C7D /* LoansList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoansList.h; sourceTree = "<group>"; };
 		20B8935E16CE3DB000B76C7D /* LoansList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoansList.m; sourceTree = "<group>"; };
 		20B8935F16CE3DB000B76C7D /* LoansList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoansList.xib; sourceTree = "<group>"; };
-		20B8936016CE3DB000B76C7D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../Classes/main.m; sourceTree = "<group>"; };
+		20B8936016CE3DB000B76C7D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/main.m; sourceTree = SOURCE_ROOT; };
 		20B8936116CE3DB000B76C7D /* MainBibSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainBibSearch.h; sourceTree = "<group>"; };
 		20B8936216CE3DB000B76C7D /* MainBibSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainBibSearch.m; sourceTree = "<group>"; };
 		20B8936316CE3DB000B76C7D /* MainBibSearch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainBibSearch.xib; sourceTree = "<group>"; };
@@ -344,7 +344,6 @@
 		20B8938416CE3DB000B76C7D /* SearchResultItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultItem.m; sourceTree = "<group>"; };
 		20B8938516CE3DB000B76C7D /* SearchResultItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultItem.xib; sourceTree = "<group>"; };
 		20B8938616CE3DB000B76C7D /* SearchResultObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultObject.h; sourceTree = "<group>"; };
-		20B8938716CE3DB000B76C7D /* SearchResultObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultObject.m; sourceTree = "<group>"; };
 		20B8938816CE3DB000B76C7D /* SearchResultsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsView.h; sourceTree = "<group>"; };
 		20B8938916CE3DB000B76C7D /* SearchResultsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultsView.m; sourceTree = "<group>"; };
 		20B8938A16CE3DB000B76C7D /* SearchResultsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultsView.xib; sourceTree = "<group>"; };
@@ -564,6 +563,7 @@
 		20B8960D16CE3FA700B76C7D /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
 		20B8960E16CE3FA700B76C7D /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
 		20B8960F16CE3FA700B76C7D /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
+		20F140CC17ABF02600F66A6C /* SearchResultObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -773,7 +773,7 @@
 				20B8938416CE3DB000B76C7D /* SearchResultItem.m */,
 				20B8938516CE3DB000B76C7D /* SearchResultItem.xib */,
 				20B8938616CE3DB000B76C7D /* SearchResultObject.h */,
-				20B8938716CE3DB000B76C7D /* SearchResultObject.m */,
+				20F140CC17ABF02600F66A6C /* SearchResultObject.m */,
 				20B8938816CE3DB000B76C7D /* SearchResultsView.h */,
 				20B8938916CE3DB000B76C7D /* SearchResultsView.m */,
 				20B8938A16CE3DB000B76C7D /* SearchResultsView.xib */,
@@ -848,13 +848,13 @@
 		20B8931016CE3C9200B76C7D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				20B8934E16CE3DB000B76C7D /* libraryapp_Prefix.pch */,
+				202AE53617ABEDE1007EE22C /* libraryapp_Prefix.pch */,
 				20B895F016CE3F5500B76C7D /* redia_library_app_config.h */,
 				20B8936016CE3DB000B76C7D /* main.m */,
 				20B8931116CE3C9200B76C7D /* redia-library-app-Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		20B8932616CE3DB000B76C7D /* Classes */ = {
 			isa = PBXGroup;
@@ -873,9 +873,8 @@
 				209E25C516CE455700E279B0 /* Add Reservation */,
 				209E25BF16CE44E800E279B0 /* More About */,
 			);
-			name = Classes;
-			path = ../Classes;
-			sourceTree = "<group>";
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
 		};
 		20B8938D16CE3DB000B76C7D /* images */ = {
 			isa = PBXGroup;
@@ -1479,7 +1478,6 @@
 				20B8942816CE3DB100B76C7D /* SearchDetailItem.m in Sources */,
 				20B8942A16CE3DB100B76C7D /* SearchDetailView.m in Sources */,
 				20B8942C16CE3DB100B76C7D /* SearchResultItem.m in Sources */,
-				20B8942E16CE3DB100B76C7D /* SearchResultObject.m in Sources */,
 				20B8942F16CE3DB100B76C7D /* SearchResultsView.m in Sources */,
 				20B8943116CE3DB100B76C7D /* WebserviceVersionTester.m in Sources */,
 				20B8956D16CE3DC400B76C7D /* ChannelFetchManager.m in Sources */,
@@ -1525,6 +1523,7 @@
 				20B895A016CE3DC400B76C7D /* XMLRPCRequest.m in Sources */,
 				20B895A116CE3DC400B76C7D /* XMLRPCResponse.m in Sources */,
 				20B895F116CE3F7300B76C7D /* AboutDetailsViewController.m in Sources */,
+				20F140CD17ABF02600F66A6C /* SearchResultObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
