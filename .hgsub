@@ -1,4 +1,3 @@
-lib-zbar-ios = [git]https://github.com/arciem/ZBarSDK.git
 redia-lib-utils-ios = https://code.google.com/p/redia-lib-utils-ios
 redia-lib-infoobject-ios = https://code.google.com/p/redia-lib-infoobject-ios
 redia-lib-tbxml-ios = https://code.google.com/p/redia-lib-tbxml-ios
